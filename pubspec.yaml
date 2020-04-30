@@ -1,0 +1,63 @@
+name: favelasemcorona
+description: Ajudando a diminuir o impacto do virus nas comunidades
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  google_maps_flutter: ^0.5.11
+  http: ^0.12.0+1
+  json_serializable: ^2.0.2
+  cloud_firestore: ^0.13.4+2
+  webview_flutter: ^0.3.19+9
+  url_launcher: ^5.4.2
+  dio: ^3.0.9
+  firebase_core: ^0.4.4+3
+  font_awesome_flutter: ^8.7.0
+  flutter_svg: ^0.17.4
+  shared_preferences: ^0.5.7
+  flutter_spinkit: "^4.1.2"
+  hex: ^0.1.2
+  web3dart: ^1.2.3
+  bip39: ^1.0.3
+  bitcoin_flutter: ^2.0.0
+  toast: ^0.1.5
+  firebase_auth: ^0.16.0
+  google_sign_in: ^4.4.4
+  qr_flutter: ^3.1.0
+  barcode_scan: "^1.0.0"
+  flutter_masked_text: ^0.8.0
+  brasil_fields: ^0.0.8
+  email_validator: '^1.0.0'
+  file_picker: ^1.8.0+1
+  geolocation: ^1.1.2
+  permission_handler: ^5.0.0+hotfix.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.4.0
+  build_runner: ^1.2.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - images/
+  - assets/StandardToken.json
+  - visa.png
+
+
+  fonts:
+   - family: MontserratAlternates
+     fonts:
+       - asset: assets/fonts/MontserratAlternates-Regular.ttf
+   - family: ComicNeue
+     fonts:
+       - asset: assets/fonts/ComicNeue-Regular.ttf
+
